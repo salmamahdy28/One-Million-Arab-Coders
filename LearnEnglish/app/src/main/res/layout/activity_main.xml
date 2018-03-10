@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    android:background="@color/backgroundColor"
+    tools:context="com.example.android.learnenglish.MainActivity">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/numberCategory"
+    >
+    <TextView
+        android:id="@+id/number"
+        style="@style/categoryItemStyle"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Number" />
+</FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/familyCategory"
+        >
+    <TextView
+        android:id="@+id/family"
+       style="@style/categoryItemStyle"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Family Members" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorCategory"
+        >
+    <TextView
+        android:id="@+id/color"
+        style="@style/categoryItemStyle"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Colors" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/phrasesCategory"
+        >
+    <TextView
+        android:id="@+id/phrases"
+        style="@style/categoryItemStyle"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Phrases" />
+    </FrameLayout>
+
+
+
+</LinearLayout>

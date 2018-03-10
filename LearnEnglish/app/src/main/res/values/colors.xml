@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="numberCategory">#fd8e09</color>
+    <color name="familyCategory">#379237</color>
+    <color name="colorCategory">#8800A0</color>
+    <color name="phrasesCategory">#16afca</color>
+<color name="backgroundColor">#fff7da</color>
+</resources>

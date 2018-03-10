@@ -1,0 +1,73 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Just Java</string>
+
+    <!--Hint Text displayed in the empty field for the user's name [CHAR LIMIT=20]  -->
+    <string name="Name">الاسم </string>
+
+    <!-- hint text display in the empty field for  user [CHAR LIMIT=20] -->
+
+    <string name="Toppings"> الاضافات </string>
+
+    <!-- hint text display in the empty field for  user [CHAR LIMIT=20] -->
+    <string name="Whipped_cream"> كريمه </string>
+
+    <!-- hint text display in the empty field  to user [CHAR LIMIT=20] -->
+    <string name="Chocolate"> شيكولاته </string>
+
+
+    <!-- hint text display in the empty field for  user [CHAR LIMIT=20] -->
+    <string name="Quantity"> الكميه</string>
+
+    <!-- hint text display in the empty field for  user [CHAR LIMIT=5] -->
+    <string name="initial_Quantity"> 2 </string>
+
+
+    <!-- hint text display in the empty field for user [CHAR LIMIT=20] -->
+    <string name="order"> اطلب </string>
+
+    <!-- hint text display in the empty field  to user [CHAR LIMIT=20] -->
+    <string name="thank_you">شكرا لك !</string>
+
+    <!--
+        Name for the order summary. It will be shown in the format of "Name: Amy" where Amy is the
+        user's name. [CHAR LIMIT=NONE]
+      -->
+    <string name="orderSummaryName">الاسم: <xliff:g id="name" example="Salma">%s</xliff:g></string>
+
+    <!--
+      Whipped cream topping for the order summary. It will be shown in the format of
+      "Add whipped cream? true" or "Add whipped cream? false". [CHAR LIMIT=NONE]
+    -->
+    <string name="orderSummary_AddWhippedCream">اضافه كريمه؟ <xliff:g id="addWhippedCream" example="true">%b</xliff:g></string>
+
+
+    <!--
+      Chocolate topping for the order summary. It will be shown in the format of
+      "Add chocolate? true" or "Add chocolate? false". [CHAR LIMIT=NONE]
+    -->
+    <string name="orderSummary_AddChocolate">اضافه شيكولاته؟ %b</string>
+
+    <!--
+      Quantity of coffee cups for the order summary. It will be shown in the format of
+      "Quantity: 2", where 2 is the number of cups ordered. [CHAR LIMIT=NONE]
+    -->
+    <string name="QuantityOrder_summary">الكميه : %d </string>
+
+
+    <!-- Total price of coffee cups for the order summary .It will be shown in the format of
+    Total : 12$ ,[CHAR lIMIT=NONE]-->
+    <string name="orderSummaryTotal">الحساب :  %d</string>
+
+    <!--
+        Subject line for the order summary email. It will be in the format of
+        "Just Java order for Amy" where Amy is the user's name. [CHAR LIMIT=NONE]
+      -->
+    <string name="subject">just java order for %s </string>
+
+
+
+
+</resources>
